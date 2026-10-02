@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="2025 Wired Warrior e-bike for sale." />
+  <title>2025 Wired Warrior for Sale</title>
+
+  <style>
+    :root {
+      --bg: #f5f5f2;
+      --surface: #ffffff;
+      --text: #242424;
+      --muted: #686868;
+      --accent: #25382f;
+      --accent-2: #b67a3c;
+      --line: #deded9;
+      --shadow: 0 14px 40px rgba(0, 0, 0, 0.10);
+      --radius: 20px;
+      --max: 1200px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    img, video { max-width: 100%; display: block; }
+
+    a { color: inherit; }
+
+    .container {
+      width: min(calc(100% - 32px), var(--max));
+      margin: 0 auto;
+    }
+
+    /* ---------- HERO ---------- */
+
+    .hero {
+      min-height: 78vh;
+      display: grid;
+      place-items: end start;
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(to top, rgba(0,0,0,.78), rgba(0,0,0,.15) 60%, rgba(0,0,0,.04)),
+        url("images/hero.jpg") center/cover no-repeat;
+      color: white;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(0,0,0,.22), transparent 55%);
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      width: min(860px, 100%);
+      padding: 90px 0 72px;
+    }
+
+    .eyebrow1 {
+      display: inline-block;
+      margin-bottom: 14px;
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: yellow;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      font-size: 1rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: #f0d7b4;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.7rem, 7vw, 6.2rem);
+      line-height: .98;
+      letter-spacing: -.055em;
+      max-width: 900px;
+    }
+
+    .hero-subtitle {
+      margin: 24px 0 0;
+      max-width: 720px;
+      font-size: clamp(1.05rem, 2vw, 1.35rem);
+      color: rgba(255,255,255,.9);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50px;
+      padding: 0 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid transparent;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+
+    .button:hover { transform: translateY(-2px); }
+
+    .button.primary {
+      background: white;
+      color: #1f2d27;
+      box-shadow: 0 8px 24px rgba(0,0,0,.16);
+    }
+
+    .button.secondary {
+      color: white;
+      border-color: rgba(255,255,255,.5);
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(8px);
+    }
+
+    /* ---------- NAV ---------- */
+
+    .sticky-nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      border-bottom: 1px solid rgba(0,0,0,.08);
+      background: rgba(250,250,248,.92);
+      backdrop-filter: blur(16px);
+    }
+
+    .nav-inner {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      font-weight: 900;
+      letter-spacing: -.03em;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar { display: none; }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-weight: 700;
+      font-size: .93rem;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+
+    /* ---------- SECTIONS ---------- */
+
+    section { padding: 78px 0; }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: end;
+      margin-bottom: 34px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      letter-spacing: -.045em;
+      line-height: 1.05;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .intro-card {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr;
+      background: var(--surface);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(0,0,0,.05);
+    }
+
+    .intro-copy {
+      padding: clamp(28px, 5vw, 58px);
+    }
+
+    .intro-copy h2 {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      letter-spacing: -.04em;
+      line-height: 1.05;
+    }
+
+    .intro-copy p {
+      color: var(--muted);
+      font-size: 1.06rem;
+    }
+
+    .price-card {
+      padding: clamp(28px, 5vw, 50px);
+      background: var(--accent);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .price-label {
+      text-transform: uppercase;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      opacity: .72;
+    }
+
+    .price {
+      margin-top: 6px;
+      font-size: clamp(2.8rem, 5vw, 4.6rem);
+      font-weight: 900;
+      letter-spacing: -.05em;
+      line-height: 1;
+    }
+
+    .price-note {
+      margin-top: 10px;
+      color: rgba(255,255,255,.75);
+    }
+
+    /* ---------- FEATURES ---------- */
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .feature {
+      min-height: 140px;
+      padding: 24px;
+      border-radius: 16px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+    }
+
+    .feature strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.03rem;
+    }
+
+    .feature span {
+      color: var(--muted);
+      font-size: .93rem;
+    }
+
+    /* ---------- SPECS ---------- */
+
+    .spec-wrap {
+      background: #202722;
+      color: white;
+    }
+
+    .spec-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: rgba(255,255,255,.14);
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    .spec {
+      padding: 25px;
+      background: #202722;
+    }
+
+    .spec .label {
+      font-size: .78rem;
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      color: rgba(255,255,255,.56);
+      font-weight: 800;
+    }
+
+    .spec .value {
+      margin-top: 6px;
+      font-size: 1.15rem;
+      font-weight: 800;
+    }
+
+    /* ---------- GALLERY ---------- */
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 12px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 16px;
+      min-height: 245px;
+      background: #ddd;
+      cursor: zoom-in;
+    }
+
+    .gallery-item.video-item {
+      cursor: pointer;
+    }
+
+    .gallery-item:nth-child(8n+1),
+    .gallery-item:nth-child(8n+6) {
+      grid-column: span 7;
+    }
+
+    .gallery-item:nth-child(8n+2),
+    .gallery-item:nth-child(8n+5) {
+      grid-column: span 5;
+    }
+
+    .gallery-item:nth-child(8n+3),
+    .gallery-item:nth-child(8n+4),
+    .gallery-item:nth-child(8n+7),
+    .gallery-item:nth-child(8n+8) {
+      grid-column: span 6;
+    }
+
+    .gallery-item img,
+    .gallery-item video {
+      width: 100%;
+      height: 100%;
+      min-height: 245px;
+      object-fit: cover;
+      transition: transform .3s ease;
+    }
+
+    .gallery-item:hover img,
+    .gallery-item:hover video {
+      transform: scale(1.035);
+    }
+
+    .gallery-label {
+      position: absolute;
+      left: 14px;
+      bottom: 14px;
+      z-index: 3;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(0,0,0,.60);
+      color: white;
+      font-size: .78rem;
+      font-weight: 700;
+      backdrop-filter: blur(7px);
+      pointer-events: none;
+    }
+
+    .video-play-icon {
+      position: absolute;
+      z-index: 3;
+      left: 50%;
+      top: 50%;
+      width: 76px;
+      height: 76px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 5px;
+      background: rgba(0,0,0,.66);
+      border: 2px solid rgba(255,255,255,.75);
+      color: white;
+      font-size: 32px;
+      line-height: 1;
+      pointer-events: none;
+      box-shadow: 0 8px 24px rgba(0,0,0,.28);
+      backdrop-filter: blur(8px);
+    }
+
+    .video-badge {
+      position: absolute;
+      z-index: 3;
+      right: 14px;
+      top: 14px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(0,0,0,.62);
+      color: white;
+      font-size: .74rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      pointer-events: none;
+    }
+
+    /* ---------- SELLING POINTS ---------- */
+
+    .selling-points {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .selling-point {
+      padding: 28px;
+      border-radius: var(--radius);
+      background: var(--surface);
+      border: 1px solid var(--line);
+    }
+
+    .selling-point h3 {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+    }
+
+    .selling-point p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    /* ---------- CONTACT ---------- */
+
+    .contact {
+      padding: 50px;
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, #26372f, #17221d);
+      color: white;
+      box-shadow: var(--shadow);
+    }
+
+    .contact h2 {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      letter-spacing: -.04em;
+    }
+
+    .contact p {
+      max-width: 700px;
+      color: rgba(255,255,255,.78);
+    }
+
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    footer {
+      padding: 38px 0 50px;
+      color: var(--muted);
+      text-align: center;
+      font-size: .9rem;
+    }
+
+    /* ---------- LIGHTBOX ---------- */
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,.92);
+      padding: 30px;
+    }
+
+    .lightbox.open {
+      display: flex;
+    }
+
+    .lightbox-media {
+      max-width: min(94vw, 1500px);
+      max-height: 88vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lightbox-media img,
+    .lightbox-media video {
+      max-width: min(94vw, 1500px);
+      max-height: 88vh;
+      object-fit: contain;
+      background: black;
+      box-shadow: 0 20px 80px rgba(0,0,0,.45);
+      border-radius: 4px;
+    }
+
+    .lightbox-close,
+    .lightbox-prev,
+    .lightbox-next {
+      position: fixed;
+      z-index: 1001;
+      width: 48px;
+      height: 48px;
+      border: 1px solid rgba(255,255,255,.28);
+      border-radius: 999px;
+      background: rgba(255,255,255,.10);
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      backdrop-filter: blur(10px);
+    }
+
+    .lightbox-close {
+      top: 18px;
+      right: 18px;
+    }
+
+    .lightbox-prev {
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .lightbox-next {
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .lightbox-caption {
+      position: fixed;
+      bottom: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: rgba(255,255,255,.88);
+      font-weight: 700;
+      background: rgba(0,0,0,.45);
+      padding: 8px 13px;
+      border-radius: 999px;
+      max-width: 80vw;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .section-head,
+      .intro-card {
+        grid-template-columns: 1fr;
+      }
+
+      .features-grid,
+      .spec-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .selling-points {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .hero {
+        min-height: 70vh;
+      }
+
+      .hero-content {
+        padding: 80px 0 48px;
+      }
+
+      .eyebrow1 {
+        font-size: 1.8rem;
+      }
+
+      .nav-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 12px 0;
+      }
+
+      .features-grid,
+      .spec-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery {
+        display: block;
+      }
+
+      .gallery-item {
+        width: 100%;
+        margin-bottom: 12px;
+      }
+
+      .contact {
+        padding: 32px 24px;
+      }
+
+      section {
+        padding: 58px 0;
+      }
+
+      .lightbox-prev,
+      .lightbox-next {
+        width: 42px;
+        height: 42px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="eyebrow1">FAST E-bike for sale</span>
+        <h1>2025 Wired Warrior</h1>
+        <p class="hero-subtitle">
+          Adventure-ready, comfortable, easy to ride, and FAST! A beautifully maintained
+          e-bike that is comfortable on both streets and trails and ready for its next owner.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#gallery">View Photos &amp; Video</a>
+          <a class="button secondary" href="#contact">Contact Seller</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sticky-nav">
+    <div class="container nav-inner">
+      <div class="brand">Wired Warrior</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#specs">Specs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <div class="container">
+        <div class="intro-card">
+          <div class="intro-copy">
+            <span class="eyebrow" style="color:var(--accent-2)">The E-Bike</span>
+            <h2>Fast, comfortable, and built for serious riding.</h2>
+
+            <p>
+              I am selling my 2025 Wired Warrior e-bike. It is a powerful,
+              high-performance electric bike designed for riders who want strong acceleration,
+              excellent range, comfort, and the ability to ride confidently on both paved roads
+              and recreational trails. Why am I selling it?  Quite honestly, it's TOO fast for me, and I am more
+              of distance cyclist.  The bike will go up to 45 MPH, as evidenced in the video below.  It is a great
+              vehicle to quick trips to the store, recreational riding, and general fun on trails and roads!
+
+            </p>
+
+            <p>
+              The bike has been carefully maintained and is in excellent condition.
+              It has been stored properly, kept clean, and is ready to ride.
+            </p>
+
+            <p>
+              The gallery below includes detailed views of the bike, components,
+              dashboard, included accessories, and a riding video so prospective buyers
+              can see it in action.
+            </p>
+          </div>
+
+          <aside class="price-card">
+            <div class="price-label">Asking Price</div>
+            <div class="price">$2,500</div>
+
+            <div class="price-note">
+              <h3><b>Negotiable for a serious buyer.</b></h3>
+            </div>
+
+            <div class="price-note">
+              Located in the Williamsburg / Newport News, Virginia area.
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+
+        <div>
+          <span class="eyebrow1" style="color:var(--accent-2)">Highlights</span>
+          <h3>
+            The Wired Warrior is designed for riders who want significantly more capability
+            than a typical commuter e-bike.
+          </h3>
+
+          <ul>
+            <li><b>High-performance electric drive system</b> for strong acceleration and higher-speed riding.</li>
+            <li><b>Comfortable riding position</b> suitable for both street and trail use.</li>
+            <li><b>Large-capacity battery system</b> designed for extended rides.</li>
+            <li><b>Full suspension</b> for improved comfort on rough pavement and trails.</li>
+            <li><b>Hydraulic disc brakes</b> for confident stopping performance.</li>
+            <li><b>Integrated dashboard</b> with speed, mileage, battery status, and riding information.</li>
+            <li><b>Heavy-duty frame and components</b> built for higher-performance riding.</li>
+            <li><b>Included accessories</b> shown in the photo gallery below.</li>
+          </ul>
+        </div>
+
+        <br><br>
+
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" style="color:var(--accent-2)">Key Features</span>
+            <h2>Built to cover ground quickly.</h2>
+          </div>
+          <p>
+            Update any of these cards with the exact specifications or upgrades on your bike.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature">
+            <strong>High Power</strong>
+            <span>Strong acceleration and performance for riders who want more than a basic commuter e-bike.
+            72V Hentach 2,000W brushless geared hub (5,000W peak output with 65A Patriot controller.  Torqu is 180Nm
+            </span>
+          </div>
+
+          <div class="feature">
+            <strong>Long-Range Capability</strong>
+            <span>Large battery capacity makes the Warrior well suited to longer recreational rides.
+              Dual system 72V 35Ah (2,520Wh total) using Samsung 50S cells (72V 20Ah frame + 72V
+              15Ah rear rack</span>
+          </div>
+
+          <div class="feature">
+            <strong>Full Suspension</strong>
+            <span>Front and rear suspension help smooth rough roads, gravel, and trail surfaces.RST
+              Guide hydraulic front fork (75mm travel) + DNM AO-8RC air rear shock</span>
+          </div>
+
+          <div class="feature">
+            <strong>Hydraulic Brakes</strong>
+            <span>Strong and predictable braking for a heavier, high-performance e-bike.
+              Gemma 4-piston hydraulic with 203mm/220mm rotors</span>
+          </div>
+
+          <div class="feature">
+            <strong>Fat Tires</strong>
+            <span>Wide tires add stability, traction, and comfort across a variety of surfaces.26” x 4.0”
+              Innova puncture-resistant hybrid tires</span>
+          </div>
+
+          <div class="feature">
+            <strong>Integrated Display</strong>
+            <span>Easy access to riding speed, mileage, battery information, and assist settings.</span>
+          </div>
+
+          <div class="feature">
+            <strong>Street &amp; Trail Ready</strong>
+            <span>A versatile platform for neighborhood rides, commuting, recreation, and light trail use.</span>
+          </div>
+
+          <div class="feature">
+            <strong>Ready to Ride</strong>
+            <span>Clean, maintained, and ready for its next owner.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--    <section id="specs" class="spec-wrap">-->
+<!--      <div class="container">-->
+<!--        <div class="section-head">-->
+<!--          <div>-->
+<!--            <span class="eyebrow">Specifications</span>-->
+<!--            <h2>At a glance.</h2>-->
+<!--          </div>-->
+<!--          <p style="color:rgba(255,255,255,.65)">-->
+<!--            Replace any placeholders below with the exact configuration of your Wired Warrior.-->
+<!--          </p>-->
+<!--        </div>-->
+
+<!--        <div class="spec-grid">-->
+<!--          <div class="spec"><div class="label">Year</div><div class="value">2025</div></div>-->
+<!--          <div class="spec"><div class="label">Make</div><div class="value">Wired</div></div>-->
+<!--          <div class="spec"><div class="label">Model</div><div class="value">Warrior</div></div>-->
+<!--          <div class="spec"><div class="label">Type</div><div class="value">Electric Bike</div></div>-->
+<!--          <div class="spec"><div class="label">Motor</div><div class="value">Add Exact Motor</div></div>-->
+<!--          <div class="spec"><div class="label">Battery</div><div class="value">Add Exact Battery</div></div>-->
+<!--          <div class="spec"><div class="label">Top Speed</div><div class="value">Add Configured Speed</div></div>-->
+<!--          <div class="spec"><div class="label">Mileage</div><div class="value">See Dashboard Photo</div></div>-->
+<!--          <div class="spec"><div class="label">Brakes</div><div class="value">Hydraulic Disc</div></div>-->
+<!--          <div class="spec"><div class="label">Suspension</div><div class="value">Front &amp; Rear</div></div>-->
+<!--          <div class="spec"><div class="label">Tires</div><div class="value">Fat Tire</div></div>-->
+<!--          <div class="spec"><div class="label">Condition</div><div class="value">Excellent</div></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" style="color:var(--accent-2)">Photo &amp; Video Gallery</span>
+            <h2>Take a closer look.</h2>
+          </div>
+          <p>
+            Click or tap any photo to open it full-screen. Click the video tile to play
+            the MP4. Use the left/right arrows or keyboard arrows to browse.
+          </p>
+        </div>
+
+        <div class="gallery" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" style="color:var(--accent-2)">Why This Bike</span>
+            <h2>Serious performance without giving up comfort.</h2>
+          </div>
+        </div>
+
+        <div class="selling-points">
+          <div class="selling-point">
+            <h3>Fast and Capable</h3>
+            <p>
+              The Wired Warrior is built for riders who want significantly more acceleration
+              and speed than a typical low-powered commuter e-bike.
+            </p>
+          </div>
+
+          <div class="selling-point">
+            <h3>Comfortable on Longer Rides</h3>
+            <p>
+              Fat tires, suspension, and a stable frame make it a strong choice for longer
+              recreational rides and mixed riding surfaces.
+            </p>
+          </div>
+
+          <div class="selling-point">
+            <h3>Well Cared For</h3>
+            <p>
+              The bike has been maintained, kept clean, and is ready to ride.
+              Detailed photographs and a riding video are included above.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact">
+          <span class="eyebrow">Interested?</span>
+          <h2>Come see it in person.</h2>
+
+          <p>
+            The bike is located in the Williamsburg / Newport News, Virginia area.
+            Serious buyers are welcome to contact me with questions or to arrange
+            a time to see the bike.
+          </p>
+
+          <div class="contact-row">
+            <h3>For more information, email me at gbthomas@teamraz.com</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      Wired Warrior • Private-party sale
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous item">‹</button>
+
+    <div class="lightbox-media" id="lightboxMedia"></div>
+
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next item">›</button>
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <script>
+    /*
+      ==========================================================
+      MEDIA SETUP
+      ==========================================================
+
+      Place the HTML file and an "images" folder together.
+
+      Example:
+        wired-warrior-for-sale-v2.html
+        images/
+          hero.jpg
+          warrior_back.jpg
+          warrior_video.mp4
+
+      Images need only src and label.
+      Videos need type: "video".
+
+      Optional video poster:
+        poster: "images/warrior_video_poster.jpg"
+    */
+
+    const media = [
+      { src: "images/warrior_back.jpg", label: "Wired Warrior Back view" },
+      { src: "images/warrior_backside.jpg", label: "Wired Warrior Back view 2" },
+      { src: "images/warrior_front.jpg", label: "Wired Warrior Front view" },
+      { src: "images/warrior_top.jpg", label: "Wired Warrior Top view" },
+      { src: "images/warrior_topback.jpg", label: "Wired Warrior Top Back view" },
+      { src: "images/warrior_leftside.jpg", label: "Wired Warrior left view" },
+      { src: "images/warrior_rightside.jpg", label: "Wired Warrior right view" },
+      { src: "images/warrior_sprocket.jpg", label: "Wired Warrior sprocket" },
+      { src: "images/warrior_gauge.jpg", label: "Wired Warrior dashboard (showing mileage)" },
+      { src: "images/warrior_info.jpg", label: "Wired Warrior included items" },
+
+      {
+        src: "images/warrior_demo.mp4",
+        label: "Wired Warrior - video of riding",
+        type: "video"
+      }
+    ];
+
+    const galleryGrid = document.getElementById("galleryGrid");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxMedia = document.getElementById("lightboxMedia");
+    const lightboxCaption = document.getElementById("lightboxCaption");
+    const lightboxClose = document.getElementById("lightboxClose");
+    const lightboxPrev = document.getElementById("lightboxPrev");
+    const lightboxNext = document.getElementById("lightboxNext");
+
+    let currentIndex = 0;
+
+    function isVideo(item) {
+      return item.type === "video";
+    }
+
+    function buildGallery() {
+      galleryGrid.innerHTML = "";
+
+      media.forEach((item, index) => {
+        const tile = document.createElement("div");
+        tile.className = "gallery-item";
+        tile.setAttribute("role", "button");
+        tile.setAttribute("tabindex", "0");
+        tile.setAttribute("aria-label", `Open: ${item.label}`);
+
+        if (isVideo(item)) {
+          tile.classList.add("video-item");
+
+          const preview = document.createElement("video");
+          preview.muted = true;
+          preview.playsInline = true;
+          preview.preload = "metadata";
+
+          const source = document.createElement("source");
+          source.src = item.src;
+          source.type = "video/mp4";
+          preview.appendChild(source);
+
+          if (item.poster) {
+            preview.poster = item.poster;
+          }
+
+          tile.appendChild(preview);
+
+          const playIcon = document.createElement("div");
+          playIcon.className = "video-play-icon";
+          playIcon.textContent = "▶";
+          tile.appendChild(playIcon);
+
+          const badge = document.createElement("div");
+          badge.className = "video-badge";
+          badge.textContent = "Video";
+          tile.appendChild(badge);
+
+        } else {
+          const img = document.createElement("img");
+          img.src = item.src;
+          img.alt = item.label;
+          img.loading = "lazy";
+          tile.appendChild(img);
+        }
+
+        const label = document.createElement("span");
+        label.className = "gallery-label";
+        label.textContent = item.label;
+        tile.appendChild(label);
+
+        tile.addEventListener("click", () => openLightbox(index));
+
+        tile.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openLightbox(index);
+          }
+        });
+
+        galleryGrid.appendChild(tile);
+      });
+    }
+
+    function renderCurrentItem() {
+      const item = media[currentIndex];
+
+      // Completely remove any prior player/image from the DOM.
+      // This ensures no stale playback state survives navigation.
+      lightboxMedia.innerHTML = "";
+
+      if (isVideo(item)) {
+        const video = document.createElement("video");
+        video.controls = true;
+        video.autoplay = true;
+        video.playsInline = true;
+        video.preload = "auto";
+
+        if (item.poster) {
+          video.poster = item.poster;
+        }
+
+        const source = document.createElement("source");
+        source.src = item.src;
+        source.type = "video/mp4";
+
+        video.appendChild(source);
+
+        const fallback = document.createTextNode(
+          "Your browser does not support HTML5 video."
+        );
+        video.appendChild(fallback);
+
+        lightboxMedia.appendChild(video);
+
+        // Explicitly ask the browser to load and play after insertion.
+        video.load();
+
+        const playAttempt = video.play();
+        if (playAttempt && typeof playAttempt.catch === "function") {
+          playAttempt.catch(() => {
+            // Autoplay can be blocked by browser policy.
+            // The normal video controls remain available for manual Play.
+          });
+        }
+
+      } else {
+        const img = document.createElement("img");
+        img.src = item.src;
+        img.alt = item.label;
+        lightboxMedia.appendChild(img);
+      }
+
+      lightboxCaption.textContent = item.label;
+    }
+
+    function openLightbox(index) {
+      currentIndex = index;
+      renderCurrentItem();
+
+      lightbox.classList.add("open");
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      // Destroy the player/image entirely.
+      lightboxMedia.innerHTML = "";
+
+      lightbox.classList.remove("open");
+      lightbox.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+    }
+
+    function previousItem() {
+      currentIndex = (currentIndex - 1 + media.length) % media.length;
+      renderCurrentItem();
+    }
+
+    function nextItem() {
+      currentIndex = (currentIndex + 1) % media.length;
+      renderCurrentItem();
+    }
+
+    lightboxClose.addEventListener("click", closeLightbox);
+    lightboxPrev.addEventListener("click", previousItem);
+    lightboxNext.addEventListener("click", nextItem);
+
+    lightbox.addEventListener("click", (event) => {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (!lightbox.classList.contains("open")) return;
+
+      if (event.key === "Escape") closeLightbox();
+      if (event.key === "ArrowLeft") previousItem();
+      if (event.key === "ArrowRight") nextItem();
+    });
+
+    buildGallery();
+  </script>
+
+</body>
+</html>
+
